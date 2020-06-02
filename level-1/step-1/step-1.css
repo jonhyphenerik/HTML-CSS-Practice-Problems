@@ -9,20 +9,22 @@
 .content-left {
     width: 34%;
     /* This height is a placeholder. You will need to make some adjustments to get this container to look like the design. */
-    height: 100px;
+    height: calc(100vh - 200px);
     background: #565555;
     float: left;
+    display: inline-block;
 }
 
 
 /* Use float to get this container in its desired location. */
 
 .content-mid {
-    width: 66%;
+    width: calc(100vw-200px);
     /* This height is a placeholder. You will need to make some adjustments to get this container to look like the design. */
-    height: 100px;
+    height: calc(100vh - 200px);
     background: #B0B0B0;
-    float: right;
+    float: left;
+    display: inline-block;
 }
 
 /* Use float to get this container to the bottom of the screen  */
